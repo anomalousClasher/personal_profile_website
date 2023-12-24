@@ -1,0 +1,65 @@
+.bgimage {
+    height:100vh;
+    background-image: url('blue-background.gif'); 
+    background-size:cover;
+    position:relative;
+}
+
+.hero_desc {
+    font-size: 2rem;
+    font-family: 'Lemon Jelly Personal Use', sans-serif;
+
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+
+        #profilepic {
+            border-radius: 50%;
+            height: 200px;
+            width: auto;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+
+        .imageAboutPage {
+            width: 80%;
+            margin-left: 50px;
+
+        }
+
+        #about {
+            padding-top: 1.5rem;
+        }
+        
+        .about_btn {
+            background-color: #842afab2;
+            padding: 10px 250px;
+            border: solid #842afab2 2px;
+            margin-bottom: 30px;
+        }
+
+
+          #skill {
+             padding-top: 1.5rem;
+             text-align: center;
+         }
+
+         #skill li {
+            list-style-type:none;
+         }
+ 
+        .skill_btn {
+            background-color: #3b92f0b2;
+            padding: 10px 90px;
+            border: solid #3b92f0b2 2px;
+            
+        }
+   
