@@ -1,0 +1,62 @@
+.alignment {
+    margin-top: 6rem;
+    animation: floatIn 3s;
+  }
+
+    .col-lg-6 {
+      margin-top: 120px;
+      text-align: center;
+      margin-left: 400px;
+    }
+
+/*styles for the timelines*/
+      .history .item {
+        padding: 0 0 20px 20px;
+        margin-top: -2px;
+        border-left: 2px solid #a9dc1e;
+        position: relative;
+      
+      }
+      
+      .history .item h4 {
+        line-height: 18px;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+        color: #1d685f;
+        margin-bottom: 10px;
+      }
+      
+      .history .item h5 {
+        font-size: 16px;
+        background: #effbf9;
+        padding: 5px 15px;
+        display: inline-block;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #477beb;
+      }
+      
+      .history .item ul {
+        padding-left: 20px;
+      }
+      
+      .history .item ul li {
+        padding-bottom: 10px;
+      }
+      
+      .history .item:last-child {
+        padding-bottom: 0;
+      }
+      
+      .history .item::before {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border-radius: 50px;
+        left: -9px;
+        top: 0;
+        background: #fff;
+        border: 2px solid #282be7;
+      }

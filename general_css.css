@@ -1,0 +1,63 @@
+/*buttons*/
+button{
+    font-family: Prata;
+    font-weight: 100;
+    font-size: 15px;
+    color: #fff;
+    box-shadow: rgb(0, 0, 0) 0px 6px 0px 0px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    cursor: pointer;
+    transition: 950ms;
+
+
+}
+
+     
+button:hover {
+background-color: #fff;
+color: #0066cc;
+border: solid 2px #0066cc;
+}
+
+
+.btn_icon {
+width: 30px;
+}
+
+
+/*headings*/
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+  
+  h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 3px;
+    background: #34b7a7;
+    bottom: 0;
+    left: calc(50% - 35px);
+  }
+
+
+  /*animation*/
+  @keyframes floatIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(-50);
+    }
+  }

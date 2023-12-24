@@ -1,0 +1,22 @@
+   .typing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 15px;
+    background-color: white;
+}
+
+@keyframes blink {
+0% {opacity: 1;}
+40% {opacity: 1;}
+60% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+.input-cursor { 
+animation: blink .6s linear infinite alternate;
+}
